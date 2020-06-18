@@ -1,0 +1,110 @@
+*{
+   box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("D:/Gym/resources/girl-3253532_1920.jpg");
+	background-repeat: no-repeat;
+font-family: 'Baloo Tamma 2', cursive;
+font-family: 'MuseoModerno', cursive;
+}
+
+.left{
+	display: inline-block;
+	left: 34px;
+	color: #fff;
+	top: 5px;
+	position: absolute;
+}
+
+.middle{
+	display: block;
+	margin: 20px auto;
+	color: #fff;
+	width: 50%;
+	text-align: center;
+}
+
+.right{
+	display: inline-block;
+	right: 10px;
+	top: 20px;
+	position: absolute;
+	color: #fff;
+}
+.navbar{
+	display: inline-block;
+}
+
+.navbar li{
+	display: inline-block;
+	padding: 8px 16px;
+}
+.navbar li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+.navbar a.active{
+	text-decoration: underline;
+}
+.navbar a:hover{
+	text-decoration: underline;
+	color: #f3f3f3;
+}
+
+.left img{
+	width: 120px;
+	filter: invert(100%);
+}
+.left div{
+font-family: 'Baloo Tamma 2', cursive;
+font-family: 'MuseoModerno', cursive;
+text-align: center;
+font-size: 25px;
+}
+ .btn{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	background-color: #000;
+	color:#fff;
+	font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'MuseoModerno', cursive;
+
+}
+.form{
+	display: block;
+	border:2px solid #fff;
+	padding: 20px;
+	width: 40%;
+margin: 100px auto;
+border-radius: 10px;
+}
+
+
+.form-group{
+	margin: 5px;
+   border-radius: 10px;
+}
+
+.form-group input{
+width: 100%;
+padding: 10px;
+	font-family: 'Baloo Tamma 2', cursive;
+    font-family: 'MuseoModerno', cursive;
+   border-radius: 10px;
+}
+.heading{
+	font-size: 30px;
+	margin: 10px auto;
+	color: #fff;
+	text-align: center;
+}
+
+.from-group input:hover{
+	background-color: rgb(31,30,30);
+}
